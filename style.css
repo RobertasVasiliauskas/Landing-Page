@@ -125,8 +125,31 @@ button {
 }
 
 .section-three {
-
+    background-color: #BACDB0;
 }
+
+.quote{
+    padding: 150px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+
+    align-self: flex-end;
+}
+
+
 
 
 .section-four {
