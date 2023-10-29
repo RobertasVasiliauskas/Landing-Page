@@ -5,13 +5,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 /*header styling------------------------------------------------------------------------------------------------------*/
-header{
+header {
     width: 100%;
     height: 100px;
     background-color: #2E2C2F;
@@ -20,14 +21,14 @@ header{
     justify-content: space-between;
 }
 
-.header-logo{
+.header-logo {
     margin: 10px 1px 50px 480px;
     color: #F9FAF8;
 
     font-size: 24px;
 }
 
-.links{
+.links {
     margin: 10px 480px 50px 1px;
     color: #E5E7EB;
 
@@ -35,19 +36,19 @@ header{
     gap: 18px;
 }
 
-a{
+a {
     font-size: 18px;
     font-weight: 300;
-    color: #F9FAF8 ;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
 /*main styling--------------------------------------------------------------------------------------------------------*/
-main{
+main {
     flex: 1;
 }
 
-.section-one{
+.section-one {
     background-color: #2E2C2F;
 
 
@@ -55,28 +56,28 @@ main{
     justify-content: space-between;
 }
 
-.starting-information{
+.starting-information {
     margin: 50px 10px 100px 480px;
 }
 
-.placeholder{
-    margin: 50px 480px 101px 10px;
+.placeholder {
+    margin: 50px 480px 100px 10px;
 }
 
-.starting-information h1{
+.starting-information h1 {
     width: 360px;
     color: #F9FAF8;
     font-size: 48px;
 }
 
-.starting-information h3{
+.starting-information h3 {
     width: 400px;
     color: #E5E7EB;
     font-weight: 300;
     font-size: 18px;
 }
 
-button{
+button {
     margin-top: 9px;
     padding: 6px 16px;
     color: #E5E7EB;
@@ -85,27 +86,61 @@ button{
     border-radius: 6px;
 }
 
-.section-two{
+.section-two {
+    background-color: #F3E8EE;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-two .images{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-with-text {
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two h3 {
+    margin: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.image-with-text h4{
+    width: 100px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section-three {
 
 }
 
-.section-three{
 
- }
-
-
-.section-four{
+.section-four {
 
 }
 
 
 /*footer styling------------------------------------------------------------------------------------------------------*/
-footer{
+footer {
 
 }
 
 /*other styling-------------------------------------------------------------------------------------------------------*/
-.image{
+.image {
     border-color: #212324;
     border-style: solid;
     border-radius: 5px;
@@ -114,7 +149,7 @@ footer{
     height: 125px;
 }
 
-.placeholder{
+.placeholder {
     border-color: #F9FAF8;
     border-style: solid;
     border-radius: 5px;
