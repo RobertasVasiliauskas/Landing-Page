@@ -180,7 +180,13 @@ button {
 
 /*footer styling------------------------------------------------------------------------------------------------------*/
 footer {
+    background-color: #2E2C2F;
+    color: #E5E7EB;
+    padding: 40px;
 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 /*other styling-------------------------------------------------------------------------------------------------------*/
